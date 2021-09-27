@@ -1,4 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+nav {
+    height: 9vh;
+    width: 100%;
+    min-width: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    color: white;
+    padding: 0 15px;
+    background-color: #000;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+nav h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 45px;
+    font-weight: 800px;
+    margin-bottom: 8px;
+    transform: rotate(-5deg);
+}
+
+nav ul {
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin-left: 10px;
+}
+
+nav a:hover, nav a:active{
+    color: #FFAC41;
+}
+nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+.cv-download-btn {
+    padding: 10px 15px;
+    border-style: none;
+    border-radius: 3px;
+    background-color: #FFAC41;
+}
+
+.cv-download-btn:hover {
+    cursor: pointer;
+    background-color: #FF8B1C;
+}
+
+.cv-download-btn a:hover {
+    color: white;
 }
