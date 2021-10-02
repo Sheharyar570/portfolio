@@ -30,10 +30,11 @@
     font-size: 35px;
     margin-bottom: 20px;
 }
+
 label {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .contactus-form input {
@@ -44,7 +45,7 @@ label {
     width: 80%;
     font-size: 15px;
     padding-left: 5px;
-    background-color: transparent;
+    /* background-color: transparent; */
     border: none;
     border-bottom: 1px solid white;
 }
@@ -70,5 +71,5 @@ label {
     border-style: none;
     border-radius: 3px;
     background-color: #FFD523;
-    align-self: flex-end;
+    align-self: center;
 }
