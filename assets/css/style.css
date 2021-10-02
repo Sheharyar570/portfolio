@@ -51,6 +51,7 @@ nav li a {
 }
 
 .cv-download-btn {
+    font-size: 15px;
     padding: 10px 15px;
     border-style: none;
     border-radius: 3px;
@@ -63,4 +64,9 @@ nav li a {
 
 .cv-download-btn a:hover {
     color: white;
+}
+
+.active {
+    color: #FFD523;
+    border-bottom: 1px solid #FFD523;
 }
